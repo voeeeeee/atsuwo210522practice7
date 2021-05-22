@@ -13,6 +13,7 @@
 		C8D944022659247500354FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D944002659247500354FAB /* Main.storyboard */; };
 		C8D944042659247500354FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D944032659247500354FAB /* Assets.xcassets */; };
 		C8D944072659247500354FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D944052659247500354FAB /* LaunchScreen.storyboard */; };
+		C8D944172659273200354FAB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D944162659273200354FAB /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C8D944032659247500354FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8D944062659247500354FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8D944082659247500354FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8D944162659273200354FAB /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C8D943FA2659247500354FAB /* AppDelegate.swift */,
 				C8D943FC2659247500354FAB /* SceneDelegate.swift */,
 				C8D943FE2659247500354FAB /* ViewController.swift */,
+				C8D944162659273200354FAB /* ViewController2.swift */,
 				C8D944002659247500354FAB /* Main.storyboard */,
 				C8D944032659247500354FAB /* Assets.xcassets */,
 				C8D944052659247500354FAB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D944172659273200354FAB /* ViewController2.swift in Sources */,
 				C8D943FF2659247500354FAB /* ViewController.swift in Sources */,
 				C8D943FB2659247500354FAB /* AppDelegate.swift in Sources */,
 				C8D943FD2659247500354FAB /* SceneDelegate.swift in Sources */,
