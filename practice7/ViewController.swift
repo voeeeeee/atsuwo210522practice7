@@ -10,11 +10,11 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet private weak var textField1: UITextField!
     @IBOutlet private weak var textField2: UITextField!
-    @IBOutlet private weak var resultLabel1: UILabel!
+    @IBOutlet private weak var resultLabel: UILabel!
     @IBAction private func calucrateButton1(_ sender: Any) {
         let num1 = Int(textField1.text ?? "0") ?? 0
         let num2 = Int(textField2.text ?? "0") ?? 0
-        resultLabel1.text = String(num1 + num2)
+        resultLabel.text = String(num1 + num2)
         textField1.endEditing(true)
         textField2.endEditing(true)
     }
