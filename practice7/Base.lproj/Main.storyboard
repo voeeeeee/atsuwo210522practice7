@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Fj-pL-qbA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Fj-pL-qbA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -67,7 +67,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="B0T-mm-yL6"/>
                     <connections>
-                        <outlet property="resultLabel1" destination="1ws-TT-Bol" id="ybB-0s-hj7"/>
+                        <outlet property="resultLabel" destination="1ws-TT-Bol" id="99W-Ym-l2l"/>
                         <outlet property="textField1" destination="t29-U4-LiV" id="Tqg-hq-bsF"/>
                         <outlet property="textField2" destination="YXO-VY-MVa" id="B7m-av-Qdq"/>
                     </connections>
@@ -135,9 +135,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="fKv-IQ-3HF"/>
                     <connections>
-                        <outlet property="resultLabel2" destination="BbY-vq-dT1" id="DW8-R0-GOD"/>
-                        <outlet property="textField3" destination="Cpw-MN-spW" id="dCb-f8-or2"/>
-                        <outlet property="textField4" destination="BXA-EG-j9F" id="OHJ-B8-ptO"/>
+                        <outlet property="resultLabel" destination="BbY-vq-dT1" id="TOI-7K-ISV"/>
+                        <outlet property="textField1" destination="Cpw-MN-spW" id="XTR-nG-daS"/>
+                        <outlet property="textField2" destination="BXA-EG-j9F" id="0IA-eh-aEn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Dd-BH-iLe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
